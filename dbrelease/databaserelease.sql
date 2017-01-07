@@ -1,7 +1,8 @@
 use devopsdemodb;
 
  
-CREATE TABLE `user` (
+
+create table IF NOT EXISTS `user` (
  `id` int(10) unsigned NOT NULL auto_increment, 
  `first_name` varchar(45) NOT NULL, 
  `last_name` varchar(45) NOT NULL, 
