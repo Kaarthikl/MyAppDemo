@@ -1,0 +1,86 @@
+    1  mvn -version
+    2  ls
+    3  ls -ll
+    4  cd /home/
+    5  ls
+    6  cd vagrant/
+    7  ipconfig
+    8  ifconfig
+    9  cd code/
+   10  ls
+   11  vi pom.xml 
+   12  mvn compile
+   13  cd target/
+   14  ls
+   15  cd ..
+   16  mvn test
+   17  mvn install
+   18  cd..
+   19  cd ..
+   20  clear
+   21  mkdir gitdemo
+   22  cd gitdemo/
+   23  ls
+   24  git init
+   25  ls
+   26  ls -ll
+   27  git status
+   28  touch readme.txt
+   29  ls
+   30  git add readme.txt
+   31  git status
+   32  git commit -m "Initial Commit"
+   33  git config --global user.name "kaarthik" user.email "lk@gmail.com"
+   34  git config --global user.name "kaarthik"
+   35  git config --global user.email "lk@gmail.com"
+   36  git commit -m "Initial Commit"
+   37  git status
+   38  ls
+   39  git readme.txt
+   40  echo "Hello there" > readme.txt
+   41  git readme.txt
+   42  git status
+   43  git commit -a -m
+   44  git commit -a -m "Second commit"
+   45  git status
+   46  git log
+   47  git log --oneline
+   48  gi diff
+   49  git diff
+   50  pwd
+   51  cd
+   52  git clone https://github.com/Kaarthikl/MyAppDemo
+   53  cd MyAppDemo/
+   54  ls
+   55  ls -ltr
+   56  ls -ltra
+   57  cp -r /home/vagrant/code/* /home/vagrant/MyAppDemo/
+   58  git status
+   59  ls -ltra
+   60  git add .
+   61  git status
+   62  git commit -m "Code commit"
+   63  git push
+   64  ls ltra
+   65  ls -ltra
+   66  vi .gitignore
+   67  clear
+   68  ls -ltra
+   69  cd dbrelease/
+   70  ls -ll
+   71  vi databaserelease.sql 
+   72  clear
+   73  vi databaserelease.sql 
+   74  clear
+   75  vi databaserelease.sql 
+   76  git status
+   77  git -a -m "commit three"
+   78  git -add
+   79  git add .
+   80  git commit -m "Code commit 3"
+   81  git status
+   82  git push
+   83* 
+   84  history
+   85  history | more
+   86  history > mycommands.txt
